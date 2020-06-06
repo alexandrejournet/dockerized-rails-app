@@ -8,3 +8,4 @@ COPY Gemfile Gemfile.lock /project/
 WORKDIR /project
 RUN bundle install
 COPY . /project
+EXPOSE 3000
